@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="/server">
+            <h1>Youtube Form</h1>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Name">
+            </div>
+            <div>
+                <label for="sex">sex:</label>
+                <input type="radio" id="male" name="sex" value="male">
+                <label for="male" >male</label>
+                <input type="radio" id="female" name="sex" value="female">
+                <label for="female">female</label>
+              
+            </div>
+            <div>
+                <label for="country">Please Select your country:</label>
+                <select name="country" id="country">
+                <option value="">Select your option</option>    
+                <option value="IN">India</option>
+                <option value="NP">Nepal</option>
+                <option value="US">USA</option>
+                <option value="CN">Canada</option>
+            </select>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+            
+                <textarea name="message" id="message" cols="5" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="18+">Subcribe?</label>
+            </div>
+            <button>submit</button>
+            <input type="reset">
+
+        </form>
+    </div>
+</body>
+</html>
